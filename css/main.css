@@ -132,6 +132,30 @@ section article p {
   color: #444;
 }
 
+section#contact form p {
+  padding: 10px 0px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+section#contact form p label{
+  display: inline-block;
+  width: 280px;
+}
+
+section#contact form p input{
+  display: inline-block;
+  width: 200px;
+}
+
+section#contact form p input[type='submit'] {
+  height: 30px;
+  vertical-align: middle;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 160px;
+}
+
 footer {
   background-color: #222;
   text-align: center;
