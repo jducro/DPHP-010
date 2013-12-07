@@ -12,12 +12,13 @@
 		<p>Bienvenue sur mon blog où je parle de tout et de rien.</p>
 		<nav>
 			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="a_propos.html">A propos</a></li>
+				<li><a href="index.php?page=index">Accueil</a></li>
+				<li><a href="index.php?page=a_propos">A propos</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
+	<?php if (empty($_GET['page']) || $_GET['page'] == 'index'): ?>
 	<section>
 		<article>
 			<header>7 décembre 2013, par <span>Julien</span></header>
@@ -39,6 +40,13 @@
 			</p>
 		</article>
 	</section>
+	<?php elseif ($_GET['page'] = 'a_propos'): ?>
+	<section>
+		<article>
+			Ce site est mon blog
+		</article>
+	</section>
+	<?php endif; ?>
 	<footer>
 		Copyright Julien Ducro, 2013
 	</footer>
