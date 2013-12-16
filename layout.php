@@ -2,14 +2,14 @@
 <html>
 <head>
 	<title>Mon blog</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<link rel="stylesheet" href="css/normalize.css" >
 	<link rel="stylesheet" href="css/main.css" >
 </head>
 <body>
 <header>
 	<h1>Mon Blog</h1>
-	<p>Bienvenue sur mon blog où je parle de tout et de rien.</p>
+	<p>Bienvenue sur mon blog ou je parle de tout et de rien.</p>
 	<nav>
 		<ul>
 			<li><a href="index.php?page=index">Accueil</a></li>

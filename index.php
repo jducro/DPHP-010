@@ -1,4 +1,5 @@
 <?php
+include_once('db.php');
 if (!empty($_POST)) {
 	$message = $_POST['question'];
 	$email = $_POST['email'];
